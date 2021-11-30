@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/RobotoCondensed-Regular.ttf);
+}
+
+header {
+    background: rgb(238, 241, 56);
+    height: 130px;
+    display: flex;
+    justify-content: end;
+}
+
+.logo{
+    display: flex;
+    width: 50%;
+    justify-content: start; 
+    align-items: center;
+}
+
+img {
+    object-fit: cover;
+    margin-top: 25px;
+    margin-left: 40px;
+    
+}
+
+.menu {
+    display: inline-block;
+    color: black;
+    font-family: 'Roboto';
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+nav {
+    width: 50%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+   
